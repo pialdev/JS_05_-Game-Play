@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Play</title>
+    <!-- Google  Font Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google  Font End -->
+    <!-- CSS Link Start -->
+    <link rel="stylesheet" href="src/output.css" />
+     <!-- CSS Link End -->
+  </head>
+  <body>
+    <div class="bg-amber-50 py-20">
+      <div class="max-w-330  m-auto">
+        <!-- First Screen Start -->
+         <div class="bg-white shadow-2xl w-250 text-center py-50 mx-auto" id="fstScn">
+          <h4 class="font-pop text-[48px] font-bold leading-18 text-[#000000]" id="fstTxt">Wanna Play game?</h4>
+          <input id="fstInp" type="text" placeholder="What is your name" class="w-210 h-12 mb-10 mt-10 rounded-4xl placeholder:text-[#D9D9D9]  placeholder:text-[32px] placeholder:font-bold placeholder:leading-12 placeholder:font-pop py-12 items-center text-black text-[32px] font-medium font-pop pl-13 border-2 outline-none border-[#D9D9D9]  " />
+          <button class="bg-[#7041D3] py-3 px-18 mb-15 rounded-4xl text-[32px] font-bold font-pop" id="fstBtn">Start Game</button>
+          <h5 class="font-pop text-[48px] font-bold leading-18 bg-[#CC3030] w-200 mx-auto rounded hidden" id="fstError">Name Is Missing</h5>
+        </div>
+        <!-- First Screen End -->
+        <!-- Second Screen Start -->
+         <div class="bg-white shadow-2xl w-250 text-center py-50 mx-auto hidden" id="secondScn">
+          <h4 class="font-pop text-[48px] font-bold leading-18 text-[#000000]" id="SecondTxt">Player - 1</h4>
+          <input id="SecondInp" type="text" placeholder="Give a number" class="w-210 h-12 mb-10 mt-10 rounded-4xl placeholder:text-[#D9D9D9]  placeholder:text-[32px] placeholder:font-bold placeholder:leading-12 placeholder:font-pop py-12 items-center text-black text-[32px] font-medium font-pop pl-13 border-2 outline-none border-[#D9D9D9]  " />
+          <button class="bg-[#7041D3] py-3 px-18 mb-15 rounded-4xl text-[32px] font-bold font-pop" id="SecondBtn">Let’s Play</button>
+          <h5 class="font-pop text-[48px] font-bold leading-18 bg-[#CC3030] w-200 mx-auto rounded hidden" id="SecondError">Please give a number</h5>
+        </div>
+        <!-- Second Screen End -->
+        <!-- Third Screen Start -->
+         <div class="bg-white shadow-2xl w-250 text-center py-50 mx-auto hidden" id="thirdScn">
+          <h4 class="font-pop text-[48px] font-bold leading-18 text-[#000000]" id="thirdTxt">Player - 2 Name</h4>
+          <input id="thirdInp" type="text" placeholder="What is your name" class="w-210 h-12 mb-10 mt-10 rounded-4xl placeholder:text-[#D9D9D9]  placeholder:text-[32px] placeholder:font-bold placeholder:leading-12 placeholder:font-pop py-12 items-center text-black text-[32px] font-medium font-pop pl-13 border-2 outline-none border-[#D9D9D9]  " />
+          <button class="bg-[#7041D3] py-3 px-18 mb-15 rounded-4xl text-[32px] font-bold font-pop" id="thirdBtn">Start Game</button>
+          <h5 class="font-pop text-[48px] font-bold leading-18 bg-[#CC3030] w-200 mx-auto rounded hidden" id="thirdError">Please give a Name</h5>
+        </div>
+        <!-- Third Screen End -->
+        <!-- Fourth Screen Start -->
+         <div class="bg-white shadow-2xl w-250 text-center py-50 mx-auto hidden" id="fourthScn">
+          <h4 class="font-pop text-[48px] font-bold leading-18 text-[#000000]" id="fourthTxt">Player - 1</h4>
+          <input id="fourthInp" type="text" placeholder="Give a number" class="w-210 h-12 mb-10 mt-10 rounded-4xl placeholder:text-[#D9D9D9]  placeholder:text-[32px] placeholder:font-bold placeholder:leading-12 placeholder:font-pop py-12 items-center text-black text-[32px] font-medium font-pop pl-13 border-2 outline-none border-[#D9D9D9]  " />
+          <button class="bg-[#7041D3] py-3 px-18 mb-15 rounded-4xl text-[32px] font-bold font-pop" id="fourthBtn">Let’s Play</button>
+          <h5 class="font-pop text-[48px] font-bold leading-18 bg-[#CC3030] w-200 mx-auto rounded hidden" id="fourthError">Please give a number</h5>
+        </div>
+        <!-- Fourth Screen End -->
+      </div>
+    </div>
+   
+   
+    <script src="js/script.js"></script>
+  </body>
+</html>
