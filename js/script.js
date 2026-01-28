@@ -65,8 +65,29 @@ fourthBtn.addEventListener("click", ()=>{
   }
 })
 // Fourth Screen FunsctionS End
-// First Screen FunsctionS Start
+// Fifth Screen FunsctionS Start
+let fifthScn = document.getElementById("fifthScn")
+let fifthTxt = document.getElementById("fifthTxt")
+let fifthInp = document.getElementById("fifthInp")
+let fifthBtn = document.getElementById("fifthBtn")
+let fifthError  = document.getElementById("fifthError")
+//==========================
+fifthBtn.addEventListener("click", ()=>{
+  if (fifthInp.value="") {
+    fifthError.style.display="block"
+  }
+  else{
+    fifthScn.style.display="none"
+    sixthScn.style.display="block"
+  }
+})
+// Fifth Screen FunsctionS End
+// sixth Screen FunsctionS Start
+let sixthScn = document.getElementById("sixthScn")
+let sixthTxt = document.getElementById("sixthTxt")
+let sixthInp = document.getElementById("sixthInp")
+let sixthBtn = document.getElementById("sixthBtn")
+let sixthError = document.getElementById("sixthError")
+//=======================
 
-// First Screen FunsctionS End
-// First Screen FunsctionS Start
-// First Screen FunsctionS End
+// sixth Screen FunsctionS End
